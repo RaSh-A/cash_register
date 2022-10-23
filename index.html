@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <input type="number" id="bill" placeholder="Bill Amt" />
+    <input type="number" id="givenAmt" placeholder="💵 given" />
+    <button type="submit" onclick="cashHandler()">enter</button>
+    <button type="reset" onclick="resetRegister()">reset</button>
+    <div>
+      <h2 id="billAmt" style="display: inline;"></h2>
+      <h2 id="amtGiven" style="display: inline;"></h2>
+      <h2 id="change"></h2>
+      <h3 id="2000note"></h3>
+      <h3 id="500note"></h3>
+      <h3 id="100note"></h3>
+      <h3 id="20note"></h3>
+      <h3 id="10note"></h3>
+      <h3 id="5note"></h3>
+      <h3 id="note"></h3>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
